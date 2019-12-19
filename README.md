@@ -1,24 +1,15 @@
-# vue-pwa-cart-simple
+# A Simple Cart Vue PWA
 
-## Project setup
-```
+Based on Vuejs 2.x Front-end Framework.
+
+## How to run this project?
+``` bash
 npm install
+gulp sassdev sassprod
+npm run serve ## dev server at http://localhost:8080
 ```
-
-### Compiles and hot-reloads for development
+## build for production with minification
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
+gulp sassprod
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
