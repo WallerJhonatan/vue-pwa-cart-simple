@@ -1,10 +1,13 @@
+import '@/vue-pwa-cart-simple'
 import Vue from 'vue'
+// import VueConfig from 'vue-config'
 import App from './App.vue'
-import './registerServiceWorker'
 import router from './router'
 import store from './store'
+// import Config from './config'
 
 Vue.config.productionTip = false
+// Vue.use(VueConfig, Config)
 
 new Vue({
   router,
